@@ -1,2 +1,3 @@
 #!/bin/bash
-find . -maxdepth 1 -type f -name '[[:upper:]]*' -exec mv {} /tmp/u 
+for f in [[:upper:]]*; do mv "$f" /tmp/u; done
+ 
