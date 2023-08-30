@@ -1,2 +1,2 @@
 #!/bin/bash
-for f in [[:upper:]]*; do mv "$f" /tmp/u; done 
+for f in [[:upper:]]* do mv "$f" /tmp/u 
